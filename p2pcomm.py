@@ -9,7 +9,15 @@ if rank < bahagi:
     data = {'a': 7, 'b': 3.14}
     comm.send(data, dest=(rank + bahagi), tag=11)
 
-else:
-    data = comm.recv(source=(rank - bahagi), tag=11)
+    dpt = comm.recv(source=(rank + bahagi), tag=11)
+    print(f'dapat mesej: {dpt}')
 
-print(f'rank: {rank} data: {data}')
+else:
+    data = 'bruh'
+    dpt = comm.recv(source=(rank - bahagi), tag=11)
+    print(f'dapat mesej: {dpt}')
+    comm.send(data, dest=(rank - bahagi), tag=11)
+
+
+
+# print(f'rank: {rank} data: {data}')
