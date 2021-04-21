@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <mpi.h>
+#include "mpi.h"
 
 int main(int argc, char **argv){
     int size, node, i, x;
@@ -17,7 +17,7 @@ int main(int argc, char **argv){
         printf("%s from node %d\n", msj, node);
     }
 
-    MPI_Bcast(&msj, 1, MPI_CHAR, 0, MPI_COMM_WORLD);   // communication started
+    MPI_Bcast(&msj, 6, MPI_CHAR, 0, MPI_COMM_WORLD);   // communication started
     MPI_Barrier(MPI_COMM_WORLD);
 
     // x = 1000000000 / size;
