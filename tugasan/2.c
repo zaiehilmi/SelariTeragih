@@ -15,7 +15,7 @@ int main (int argc, char *argv[]) {
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
     //ambil masa awal untuk mengetahui masa perlaksanaan
-    double masaAwal = MPI_Wtime();
+    double masa = MPI_Wtime();
 
     // dapatkan nilai terkecil daripada setiap pemproses
     int local = terkecil(numtask, rank);
@@ -23,9 +23,9 @@ int main (int argc, char *argv[]) {
 
     // mengumpulkan nilai terkecil dan dihimpun pada pemproses 1
     int kumpul[SAIZ];
-    MPI_Gather(&local, 1, MPI_INT, kumpul, 1, MPI_INT, 1, MPI_COMM_WORLD);
+    MPI_Gather(&local, 1, MPI_INT, kumpul, 1, MPI_INT, 0, MPI_COMM_WORLD);
 
-    if (rank == 1) {
+    if (rank == 0) {
         // rank 1 membuat perbandingan daripada nilai dihimpun
         local = kumpul[0];
         for (int i = 0; i < numtask; i++){
@@ -35,8 +35,8 @@ int main (int argc, char *argv[]) {
         
         printf("Nilai terkecil: %d\n\n", local);
 
-        double masaAkhir = MPI_Wtime();
-        printf("Masa perlaksanaan: %1.4f saat\n", masaAkhir - masaAwal);
+        masa = MPI_Wtime() - masa;
+        printf("Masa perlaksanaan: %1.4f saat\n", masa);
     }
     
     MPI_Finalize();
