@@ -1,0 +1,744 @@
+
+=============OMP_NUM_THREADS=2=============
+Thread 1 starting...
+Thread 1: c[0]= 0.000000
+Thread 1: c[1]= 2.000000
+Thread 1: c[2]= 4.000000
+Thread 1: c[3]= 6.000000
+Thread 1: c[4]= 8.000000
+Thread 1: c[5]= 10.000000
+Thread 1: c[6]= 12.000000
+Thread 1: c[7]= 14.000000
+Thread 1: c[8]= 16.000000
+Thread 1: c[9]= 18.000000
+Thread 1: c[10]= 20.000000
+Thread 1: c[11]= 22.000000
+Thread 1: c[12]= 24.000000
+Thread 1: c[13]= 26.000000
+Thread 1: c[14]= 28.000000
+Thread 1: c[15]= 30.000000
+Thread 1: c[16]= 32.000000
+Thread 1: c[17]= 34.000000
+Thread 1: c[18]= 36.000000
+Thread 1: c[19]= 38.000000
+Thread 1: c[20]= 40.000000
+Thread 1: c[21]= 42.000000
+Thread 1: c[22]= 44.000000
+Thread 1: c[23]= 46.000000
+Thread 1: c[24]= 48.000000
+Thread 1: c[25]= 50.000000
+Thread 1: c[26]= 52.000000
+Thread 1: c[27]= 54.000000
+Thread 1: c[28]= 56.000000
+Thread 1: c[29]= 58.000000
+Thread 1: c[30]= 60.000000
+Thread 1: c[31]= 62.000000
+Thread 1: c[32]= 64.000000
+Thread 1: c[33]= 66.000000
+Thread 1: c[34]= 68.000000
+Thread 1: c[35]= 70.000000
+Thread 1: c[36]= 72.000000
+Thread 1: c[37]= 74.000000
+Thread 1: c[38]= 76.000000
+Thread 1: c[39]= 78.000000
+Thread 1: c[40]= 80.000000
+Thread 1: c[41]= 82.000000
+Thread 1: c[42]= 84.000000
+Thread 1: c[43]= 86.000000
+Thread 1: c[44]= 88.000000
+Thread 1: c[45]= 90.000000
+Thread 1: c[46]= 92.000000
+Thread 1: c[47]= 94.000000
+Thread 1: c[48]= 96.000000
+Thread 1: c[49]= 98.000000
+Thread 1: c[50]= 100.000000
+Thread 1: c[51]= 102.000000
+Thread 1: c[52]= 104.000000
+Thread 1: c[53]= 106.000000
+Thread 1: c[54]= 108.000000
+Thread 1: c[55]= 110.000000
+Thread 1: c[56]= 112.000000
+Thread 1: c[57]= 114.000000
+Thread 1: c[58]= 116.000000
+Thread 1: c[59]= 118.000000
+Thread 1: c[60]= 120.000000
+Thread 1: c[61]= 122.000000
+Thread 1: c[62]= 124.000000
+Thread 1: c[63]= 126.000000
+Thread 1: c[64]= 128.000000
+Thread 1: c[65]= 130.000000
+Thread 1: c[66]= 132.000000
+Thread 1: c[67]= 134.000000
+Thread 1: c[68]= 136.000000
+Thread 1: c[69]= 138.000000
+Thread 1: c[70]= 140.000000
+Thread 1: c[71]= 142.000000
+Thread 1: c[72]= 144.000000
+Thread 1: c[73]= 146.000000
+Thread 1: c[74]= 148.000000
+Thread 1: c[75]= 150.000000
+Thread 1: c[76]= 152.000000
+Thread 1: c[77]= 154.000000
+Thread 1: c[78]= 156.000000
+Thread 1: c[79]= 158.000000
+Thread 1: c[80]= 160.000000
+Thread 1: c[81]= 162.000000
+Thread 1: c[82]= 164.000000
+Thread 1: c[83]= 166.000000
+Thread 1: c[84]= 168.000000
+Thread 1: c[85]= 170.000000
+Thread 1: c[86]= 172.000000
+Thread 1: c[87]= 174.000000
+Thread 1: c[88]= 176.000000
+Thread 1: c[89]= 178.000000
+Thread 1: c[90]= 180.000000
+Thread 1: c[91]= 182.000000
+Thread 1: c[92]= 184.000000
+Thread 1: c[93]= 186.000000
+Thread 1: c[94]= 188.000000
+Thread 1: c[95]= 190.000000
+Thread 1: c[96]= 192.000000
+Thread 1: c[97]= 194.000000
+Thread 1: c[98]= 196.000000
+Thread 1: c[99]= 198.000000
+Number of threads = 2
+Thread 0 starting...
+
+=============OMP_NUM_THREADS=4=============
+Thread 3 starting...
+Thread 3: c[0]= 0.000000
+Thread 3: c[1]= 2.000000
+Thread 3: c[2]= 4.000000
+Thread 3: c[3]= 6.000000
+Thread 3: c[4]= 8.000000
+Thread 3: c[5]= 10.000000
+Thread 3: c[6]= 12.000000
+Thread 3: c[7]= 14.000000
+Thread 3: c[8]= 16.000000
+Thread 3: c[9]= 18.000000
+Thread 3: c[10]= 20.000000
+Thread 3: c[11]= 22.000000
+Thread 3: c[12]= 24.000000
+Thread 3: c[13]= 26.000000
+Thread 3: c[14]= 28.000000
+Thread 3: c[15]= 30.000000
+Thread 2 starting...
+Thread 2: c[20]= 40.000000
+Thread 2: c[21]= 42.000000
+Thread 2: c[22]= 44.000000
+Thread 2: c[23]= 46.000000
+Thread 2: c[24]= 48.000000
+Thread 2: c[25]= 50.000000
+Thread 2: c[26]= 52.000000
+Thread 2: c[27]= 54.000000
+Thread 2: c[28]= 56.000000
+Thread 2: c[29]= 58.000000
+Thread 2: c[30]= 60.000000
+Thread 2: c[31]= 62.000000
+Thread 2: c[32]= 64.000000
+Thread 2: c[33]= 66.000000
+Thread 2: c[34]= 68.000000
+Thread 2: c[35]= 70.000000
+Thread 2: c[36]= 72.000000
+Thread 2: c[37]= 74.000000
+Thread 2: c[38]= 76.000000
+Thread 2: c[39]= 78.000000
+Thread 2: c[40]= 80.000000
+Thread 2: c[41]= 82.000000
+Thread 2: c[42]= 84.000000
+Thread 2: c[43]= 86.000000
+Thread 2: c[44]= 88.000000
+Thread 2: c[45]= 90.000000
+Thread 2: c[46]= 92.000000
+Thread 2: c[47]= 94.000000
+Thread 2: c[48]= 96.000000
+Thread 2: c[49]= 98.000000
+Thread 2: c[50]= 100.000000
+Thread 2: c[51]= 102.000000
+Thread 2: c[52]= 104.000000
+Thread 2: c[53]= 106.000000
+Thread 2: c[54]= 108.000000
+Thread 2: c[55]= 110.000000
+Thread 2: c[56]= 112.000000
+Thread 2: c[57]= 114.000000
+Thread 2: c[58]= 116.000000
+Thread 2: c[59]= 118.000000
+Thread 2: c[60]= 120.000000
+Thread 2: c[61]= 122.000000
+Thread 2: c[62]= 124.000000
+Number of threads = 4
+Thread 2: c[63]= 126.000000
+Thread 1 starting...
+Thread 1: c[70]= 140.000000
+Thread 1: c[71]= 142.000000
+Thread 1: c[72]= 144.000000
+Thread 1: c[73]= 146.000000
+Thread 1: c[74]= 148.000000
+Thread 1: c[75]= 150.000000
+Thread 1: c[76]= 152.000000
+Thread 1: c[77]= 154.000000
+Thread 1: c[78]= 156.000000
+Thread 1: c[79]= 158.000000
+Thread 1: c[80]= 160.000000
+Thread 1: c[81]= 162.000000
+Thread 1: c[82]= 164.000000
+Thread 1: c[83]= 166.000000
+Thread 1: c[84]= 168.000000
+Thread 1: c[85]= 170.000000
+Thread 1: c[86]= 172.000000
+Thread 1: c[87]= 174.000000
+Thread 1: c[88]= 176.000000
+Thread 1: c[89]= 178.000000
+Thread 1: c[90]= 180.000000
+Thread 1: c[91]= 182.000000
+Thread 1: c[92]= 184.000000
+Thread 1: c[93]= 186.000000
+Thread 1: c[94]= 188.000000
+Thread 1: c[95]= 190.000000
+Thread 1: c[96]= 192.000000
+Thread 1: c[97]= 194.000000
+Thread 1: c[98]= 196.000000
+Thread 1: c[99]= 198.000000
+Thread 0 starting...
+Thread 2: c[64]= 128.000000
+Thread 2: c[65]= 130.000000
+Thread 2: c[66]= 132.000000
+Thread 2: c[67]= 134.000000
+Thread 2: c[68]= 136.000000
+Thread 2: c[69]= 138.000000
+Thread 3: c[16]= 32.000000
+Thread 3: c[17]= 34.000000
+Thread 3: c[18]= 36.000000
+Thread 3: c[19]= 38.000000
+
+=============OMP_NUM_THREADS=8=============
+Thread 7 starting...
+Number of threads = 8
+Thread 0 starting...
+Thread 0: c[0]= 0.000000
+Thread 0: c[1]= 2.000000
+Thread 0: c[2]= 4.000000
+Thread 0: c[3]= 6.000000
+Thread 0: c[4]= 8.000000
+Thread 0: c[5]= 10.000000
+Thread 0: c[6]= 12.000000
+Thread 0: c[7]= 14.000000
+Thread 0: c[8]= 16.000000
+Thread 0: c[9]= 18.000000
+Thread 0: c[10]= 20.000000
+Thread 0: c[11]= 22.000000
+Thread 0: c[12]= 24.000000
+Thread 0: c[13]= 26.000000
+Thread 0: c[14]= 28.000000
+Thread 0: c[15]= 30.000000
+Thread 0: c[16]= 32.000000
+Thread 0: c[17]= 34.000000
+Thread 0: c[18]= 36.000000
+Thread 0: c[19]= 38.000000
+Thread 0: c[20]= 40.000000
+Thread 0: c[21]= 42.000000
+Thread 0: c[22]= 44.000000
+Thread 0: c[23]= 46.000000
+Thread 0: c[24]= 48.000000
+Thread 0: c[25]= 50.000000
+Thread 0: c[26]= 52.000000
+Thread 0: c[27]= 54.000000
+Thread 0: c[28]= 56.000000
+Thread 0: c[29]= 58.000000
+Thread 0: c[30]= 60.000000
+Thread 0: c[31]= 62.000000
+Thread 0: c[32]= 64.000000
+Thread 0: c[33]= 66.000000
+Thread 0: c[34]= 68.000000
+Thread 0: c[35]= 70.000000
+Thread 0: c[36]= 72.000000
+Thread 0: c[37]= 74.000000
+Thread 0: c[38]= 76.000000
+Thread 0: c[39]= 78.000000
+Thread 0: c[40]= 80.000000
+Thread 0: c[41]= 82.000000
+Thread 0: c[42]= 84.000000
+Thread 0: c[43]= 86.000000
+Thread 0: c[44]= 88.000000
+Thread 0: c[45]= 90.000000
+Thread 0: c[46]= 92.000000
+Thread 0: c[47]= 94.000000
+Thread 0: c[48]= 96.000000
+Thread 0: c[49]= 98.000000
+Thread 0: c[50]= 100.000000
+Thread 0: c[51]= 102.000000
+Thread 3 starting...
+Thread 3: c[60]= 120.000000
+Thread 3: c[61]= 122.000000
+Thread 3: c[62]= 124.000000
+Thread 3: c[63]= 126.000000
+Thread 3: c[64]= 128.000000
+Thread 3: c[65]= 130.000000
+Thread 3: c[66]= 132.000000
+Thread 3: c[67]= 134.000000
+Thread 3: c[68]= 136.000000
+Thread 3: c[69]= 138.000000
+Thread 3: c[70]= 140.000000
+Thread 3: c[71]= 142.000000
+Thread 3: c[72]= 144.000000
+Thread 3: c[73]= 146.000000
+Thread 3: c[74]= 148.000000
+Thread 3: c[75]= 150.000000
+Thread 3: c[76]= 152.000000
+Thread 3: c[77]= 154.000000
+Thread 3: c[78]= 156.000000
+Thread 3: c[79]= 158.000000
+Thread 3: c[80]= 160.000000
+Thread 3: c[81]= 162.000000
+Thread 3: c[82]= 164.000000
+Thread 3: c[83]= 166.000000
+Thread 3: c[84]= 168.000000
+Thread 3: c[85]= 170.000000
+Thread 3: c[86]= 172.000000
+Thread 3: c[87]= 174.000000
+Thread 3: c[88]= 176.000000
+Thread 3: c[89]= 178.000000
+Thread 3: c[90]= 180.000000
+Thread 3: c[91]= 182.000000
+Thread 3: c[92]= 184.000000
+Thread 3: c[93]= 186.000000
+Thread 3: c[94]= 188.000000
+Thread 3: c[95]= 190.000000
+Thread 3: c[96]= 192.000000
+Thread 3: c[97]= 194.000000
+Thread 3: c[98]= 196.000000
+Thread 3: c[99]= 198.000000
+Thread 2 starting...
+Thread 4 starting...
+Thread 1 starting...
+Thread 0: c[52]= 104.000000
+Thread 0: c[53]= 106.000000
+Thread 0: c[54]= 108.000000
+Thread 0: c[55]= 110.000000
+Thread 0: c[56]= 112.000000
+Thread 0: c[57]= 114.000000
+Thread 0: c[58]= 116.000000
+Thread 0: c[59]= 118.000000
+Thread 6 starting...
+Thread 5 starting...
+
+=============OMP_NUM_THREADS=16=============
+Thread 7 starting...
+Thread 2 starting...
+Thread 2: c[0]= 0.000000
+Thread 2: c[1]= 2.000000
+Thread 2: c[2]= 4.000000
+Thread 2: c[3]= 6.000000
+Thread 2: c[4]= 8.000000
+Thread 2: c[5]= 10.000000
+Thread 2: c[6]= 12.000000
+Thread 2: c[7]= 14.000000
+Thread 2: c[8]= 16.000000
+Thread 2: c[9]= 18.000000
+Thread 2: c[10]= 20.000000
+Thread 2: c[11]= 22.000000
+Thread 2: c[12]= 24.000000
+Thread 2: c[13]= 26.000000
+Thread 2: c[14]= 28.000000
+Thread 2: c[15]= 30.000000
+Thread 2: c[16]= 32.000000
+Thread 2: c[17]= 34.000000
+Thread 2: c[18]= 36.000000
+Thread 2: c[19]= 38.000000
+Thread 2: c[20]= 40.000000
+Thread 2: c[21]= 42.000000
+Thread 2: c[22]= 44.000000
+Thread 2: c[23]= 46.000000
+Thread 2: c[24]= 48.000000
+Thread 2: c[25]= 50.000000
+Thread 2: c[26]= 52.000000
+Thread 2: c[27]= 54.000000
+Thread 2: c[28]= 56.000000
+Thread 2: c[29]= 58.000000
+Thread 2: c[30]= 60.000000
+Thread 2: c[31]= 62.000000
+Thread 2: c[32]= 64.000000
+Thread 2: c[33]= 66.000000
+Thread 2: c[34]= 68.000000
+Thread 2: c[35]= 70.000000
+Thread 2: c[36]= 72.000000
+Thread 2: c[37]= 74.000000
+Thread 2: c[38]= 76.000000
+Thread 2: c[39]= 78.000000
+Thread 2: c[40]= 80.000000
+Thread 2: c[41]= 82.000000
+Thread 2: c[42]= 84.000000
+Thread 2: c[43]= 86.000000
+Thread 2: c[44]= 88.000000
+Thread 2: c[45]= 90.000000
+Thread 2: c[46]= 92.000000
+Thread 2: c[47]= 94.000000
+Thread 2: c[48]= 96.000000
+Thread 2: c[49]= 98.000000
+Thread 2: c[50]= 100.000000
+Thread 2: c[51]= 102.000000
+Thread 2: c[52]= 104.000000
+Thread 2: c[53]= 106.000000
+Thread 2: c[54]= 108.000000
+Thread 2: c[55]= 110.000000
+Thread 2: c[56]= 112.000000
+Thread 2: c[57]= 114.000000
+Thread 2: c[58]= 116.000000
+Thread 2: c[59]= 118.000000
+Thread 2: c[60]= 120.000000
+Thread 2: c[61]= 122.000000
+Thread 2: c[62]= 124.000000
+Thread 2: c[63]= 126.000000
+Thread 2: c[64]= 128.000000
+Thread 2: c[65]= 130.000000
+Thread 2: c[66]= 132.000000
+Thread 2: c[67]= 134.000000
+Thread 2: c[68]= 136.000000
+Thread 2: c[69]= 138.000000
+Thread 2: c[70]= 140.000000
+Thread 2: c[71]= 142.000000
+Thread 2: c[72]= 144.000000
+Thread 2: c[73]= 146.000000
+Thread 2: c[74]= 148.000000
+Thread 2: c[75]= 150.000000
+Thread 2: c[76]= 152.000000
+Thread 2: c[77]= 154.000000
+Thread 2: c[78]= 156.000000
+Thread 2: c[79]= 158.000000
+Thread 2: c[80]= 160.000000
+Thread 2: c[81]= 162.000000
+Thread 2: c[82]= 164.000000
+Thread 2: c[83]= 166.000000
+Thread 2: c[84]= 168.000000
+Thread 2: c[85]= 170.000000
+Thread 2: c[86]= 172.000000
+Thread 2: c[87]= 174.000000
+Thread 2: c[88]= 176.000000
+Thread 2: c[89]= 178.000000
+Thread 2: c[90]= 180.000000
+Thread 2: c[91]= 182.000000
+Thread 2: c[92]= 184.000000
+Thread 2: c[93]= 186.000000
+Thread 2: c[94]= 188.000000
+Thread 2: c[95]= 190.000000
+Thread 2: c[96]= 192.000000
+Thread 2: c[97]= 194.000000
+Thread 2: c[98]= 196.000000
+Thread 2: c[99]= 198.000000
+Thread 5 starting...
+Thread 15 starting...
+Number of threads = 16
+Thread 0 starting...
+Thread 3 starting...
+Thread 4 starting...
+Thread 1 starting...
+Thread 12 starting...
+Thread 14 starting...
+Thread 9 starting...
+Thread 13 starting...
+Thread 10 starting...
+Thread 11 starting...
+Thread 6 starting...
+Thread 8 starting...
+
+=============OMP_NUM_THREADS=32=============
+Thread 2 starting...
+Thread 22 starting...
+Thread 29 starting...
+Thread 1 starting...
+Thread 22: c[10]= 20.000000
+Thread 18 starting...
+Thread 22: c[11]= 22.000000
+Thread 22: c[12]= 24.000000
+Thread 18: c[40]= 80.000000
+Thread 23 starting...
+Thread 18: c[41]= 82.000000
+Thread 18: c[42]= 84.000000
+Thread 18: c[43]= 86.000000
+Thread 25 starting...
+Thread 18: c[44]= 88.000000
+Thread 18: c[45]= 90.000000
+Thread 18: c[46]= 92.000000
+Number of threads = 32
+Thread 18: c[47]= 94.000000
+Thread 18: c[48]= 96.000000
+Thread 18: c[49]= 98.000000
+Thread 11 starting...
+Thread 7 starting...
+Thread 18: c[70]= 140.000000
+Thread 18: c[71]= 142.000000
+Thread 17 starting...
+Thread 7: c[80]= 160.000000
+Thread 18: c[72]= 144.000000
+Thread 18: c[73]= 146.000000
+Thread 18: c[74]= 148.000000
+Thread 18: c[75]= 150.000000
+Thread 7: c[81]= 162.000000
+Thread 21 starting...
+Thread 15 starting...
+Thread 18: c[76]= 152.000000
+Thread 7: c[82]= 164.000000
+Thread 7: c[83]= 166.000000
+Thread 18: c[77]= 154.000000
+Thread 18: c[78]= 156.000000
+Thread 19 starting...
+Thread 1: c[20]= 40.000000
+Thread 4 starting...
+Thread 1: c[21]= 42.000000
+Thread 1: c[22]= 44.000000
+Thread 1: c[23]= 46.000000
+Thread 12 starting...
+Thread 1: c[24]= 48.000000
+Thread 1: c[25]= 50.000000
+Thread 1: c[26]= 52.000000
+Thread 1: c[27]= 54.000000
+Thread 1: c[28]= 56.000000
+Thread 14 starting...
+Thread 6 starting...
+Thread 1: c[29]= 58.000000
+Thread 3 starting...
+Thread 8 starting...
+Thread 23: c[50]= 100.000000
+Thread 23: c[51]= 102.000000
+Thread 23: c[52]= 104.000000
+Thread 23: c[53]= 106.000000
+Thread 25: c[60]= 120.000000
+Thread 23: c[54]= 108.000000
+Thread 23: c[55]= 110.000000
+Thread 23: c[56]= 112.000000
+Thread 23: c[57]= 114.000000
+Thread 25: c[61]= 122.000000
+Thread 25: c[62]= 124.000000
+Thread 25: c[63]= 126.000000
+Thread 25: c[64]= 128.000000
+Thread 25: c[65]= 130.000000
+Thread 25: c[66]= 132.000000
+Thread 25: c[67]= 134.000000
+Thread 25: c[68]= 136.000000
+Thread 25: c[69]= 138.000000
+Thread 0 starting...
+Thread 11: c[90]= 180.000000
+Thread 11: c[91]= 182.000000
+Thread 11: c[92]= 184.000000
+Thread 2: c[0]= 0.000000
+Thread 11: c[93]= 186.000000
+Thread 11: c[94]= 188.000000
+Thread 11: c[95]= 190.000000
+Thread 7: c[84]= 168.000000
+Thread 11: c[96]= 192.000000
+Thread 11: c[97]= 194.000000
+Thread 11: c[98]= 196.000000
+Thread 7: c[85]= 170.000000
+Thread 18: c[79]= 158.000000
+Thread 7: c[86]= 172.000000
+Thread 29: c[30]= 60.000000
+Thread 13 starting...
+Thread 10 starting...
+Thread 29: c[31]= 62.000000
+Thread 29: c[32]= 64.000000
+Thread 29: c[33]= 66.000000
+Thread 29: c[34]= 68.000000
+Thread 29: c[35]= 70.000000
+Thread 29: c[36]= 72.000000
+Thread 29: c[37]= 74.000000
+Thread 29: c[38]= 76.000000
+Thread 29: c[39]= 78.000000
+Thread 31 starting...
+Thread 27 starting...
+Thread 23: c[58]= 116.000000
+Thread 22: c[13]= 26.000000
+Thread 26 starting...
+Thread 22: c[14]= 28.000000
+Thread 20 starting...
+Thread 22: c[15]= 30.000000
+Thread 22: c[16]= 32.000000
+Thread 22: c[17]= 34.000000
+Thread 22: c[18]= 36.000000
+Thread 22: c[19]= 38.000000
+Thread 24 starting...
+Thread 28 starting...
+Thread 7: c[87]= 174.000000
+Thread 7: c[88]= 176.000000
+Thread 7: c[89]= 178.000000
+Thread 5 starting...
+Thread 30 starting...
+Thread 16 starting...
+Thread 23: c[59]= 118.000000
+Thread 11: c[99]= 198.000000
+Thread 2: c[1]= 2.000000
+Thread 2: c[2]= 4.000000
+Thread 2: c[3]= 6.000000
+Thread 2: c[4]= 8.000000
+Thread 2: c[5]= 10.000000
+Thread 2: c[6]= 12.000000
+Thread 2: c[7]= 14.000000
+Thread 2: c[8]= 16.000000
+Thread 2: c[9]= 18.000000
+Thread 9 starting...
+
+=============OMP_NUM_THREADS=64=============
+Thread 9 starting...
+Thread 27 starting...
+Thread 40 starting...
+Thread 6 starting...
+Thread 27: c[10]= 20.000000
+Thread 16 starting...
+Thread 11 starting...
+Thread 11: c[40]= 80.000000
+Thread 38 starting...
+Thread 49 starting...
+Thread 50 starting...
+Thread 38: c[70]= 140.000000
+Thread 28 starting...
+Thread 29 starting...
+Thread 38: c[71]= 142.000000
+Thread 37 starting...
+Thread 28: c[90]= 180.000000
+Thread 19 starting...
+Thread 34 starting...
+Thread 3 starting...
+Thread 28: c[91]= 182.000000
+Thread 28: c[92]= 184.000000
+Thread 28: c[93]= 186.000000
+Thread 17 starting...
+Thread 12 starting...
+Thread 9: c[0]= 0.000000
+Thread 28: c[94]= 188.000000
+Thread 14 starting...
+Thread 9: c[1]= 2.000000
+Thread 9: c[2]= 4.000000
+Thread 28: c[95]= 190.000000
+Thread 30 starting...
+Thread 27: c[11]= 22.000000
+Thread 44 starting...
+Thread 28: c[96]= 192.000000
+Thread 27: c[12]= 24.000000
+Thread 55 starting...
+Thread 33 starting...
+Thread 11: c[41]= 82.000000
+Thread 39 starting...
+Thread 16: c[50]= 100.000000
+Thread 63 starting...
+Thread 49: c[60]= 120.000000
+Thread 45 starting...
+Thread 15 starting...
+Thread 16: c[51]= 102.000000
+Thread 2 starting...
+Thread 50: c[80]= 160.000000
+Thread 16: c[52]= 104.000000
+Thread 42 starting...
+Thread 50: c[81]= 162.000000
+Thread 50: c[82]= 164.000000
+Thread 16: c[53]= 106.000000
+Thread 54 starting...
+Thread 50: c[83]= 166.000000
+Thread 31 starting...
+Thread 5 starting...
+Thread 24 starting...
+Thread 62 starting...
+Thread 25 starting...
+Thread 23 starting...
+Thread 16: c[54]= 108.000000
+Thread 60 starting...
+Thread 13 starting...
+Thread 1 starting...
+Thread 35 starting...
+Thread 9: c[3]= 6.000000
+Thread 40: c[20]= 40.000000
+Thread 9: c[4]= 8.000000
+Thread 22 starting...
+Thread 32 starting...
+Thread 40: c[21]= 42.000000
+Thread 4 starting...
+Thread 10 starting...
+Thread 43 starting...
+Thread 20 starting...
+Thread 58 starting...
+Thread 59 starting...
+Thread 41 starting...
+Thread 52 starting...
+Thread 47 starting...
+Thread 61 starting...
+Thread 36 starting...
+Thread 8 starting...
+Thread 50: c[84]= 168.000000
+Thread 50: c[85]= 170.000000
+Thread 50: c[86]= 172.000000
+Thread 50: c[87]= 174.000000
+Thread 50: c[88]= 176.000000
+Thread 50: c[89]= 178.000000
+Thread 16: c[55]= 110.000000
+Thread 16: c[56]= 112.000000
+Thread 16: c[57]= 114.000000
+Thread 16: c[58]= 116.000000
+Thread 16: c[59]= 118.000000
+Thread 46 starting...
+Thread 51 starting...
+Thread 9: c[5]= 10.000000
+Thread 9: c[6]= 12.000000
+Thread 9: c[7]= 14.000000
+Thread 40: c[22]= 44.000000
+Thread 9: c[8]= 16.000000
+Thread 9: c[9]= 18.000000
+Thread 40: c[23]= 46.000000
+Thread 40: c[24]= 48.000000
+Thread 40: c[25]= 50.000000
+Thread 40: c[26]= 52.000000
+Thread 40: c[27]= 54.000000
+Thread 40: c[28]= 56.000000
+Thread 40: c[29]= 58.000000
+Thread 53 starting...
+Thread 27: c[13]= 26.000000
+Thread 27: c[14]= 28.000000
+Thread 27: c[15]= 30.000000
+Thread 27: c[16]= 32.000000
+Thread 48 starting...
+Thread 27: c[17]= 34.000000
+Thread 27: c[18]= 36.000000
+Thread 27: c[19]= 38.000000
+Thread 49: c[61]= 122.000000
+Thread 49: c[62]= 124.000000
+Thread 49: c[63]= 126.000000
+Thread 49: c[64]= 128.000000
+Thread 49: c[65]= 130.000000
+Thread 49: c[66]= 132.000000
+Thread 49: c[67]= 134.000000
+Thread 49: c[68]= 136.000000
+Thread 49: c[69]= 138.000000
+Thread 26 starting...
+Number of threads = 64
+Thread 38: c[72]= 144.000000
+Thread 0 starting...
+Thread 38: c[73]= 146.000000
+Thread 38: c[74]= 148.000000
+Thread 38: c[75]= 150.000000
+Thread 38: c[76]= 152.000000
+Thread 38: c[77]= 154.000000
+Thread 38: c[78]= 156.000000
+Thread 38: c[79]= 158.000000
+Thread 57 starting...
+Thread 6: c[30]= 60.000000
+Thread 6: c[31]= 62.000000
+Thread 21 starting...
+Thread 28: c[97]= 194.000000
+Thread 6: c[32]= 64.000000
+Thread 6: c[33]= 66.000000
+Thread 18 starting...
+Thread 11: c[42]= 84.000000
+Thread 6: c[34]= 68.000000
+Thread 6: c[35]= 70.000000
+Thread 6: c[36]= 72.000000
+Thread 28: c[98]= 196.000000
+Thread 7 starting...
+Thread 28: c[99]= 198.000000
+Thread 6: c[37]= 74.000000
+Thread 6: c[38]= 76.000000
+Thread 6: c[39]= 78.000000
+Thread 11: c[43]= 86.000000
+Thread 11: c[44]= 88.000000
+Thread 11: c[45]= 90.000000
+Thread 11: c[46]= 92.000000
+Thread 11: c[47]= 94.000000
+Thread 11: c[48]= 96.000000
+Thread 11: c[49]= 98.000000
+Thread 56 starting...

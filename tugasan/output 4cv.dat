@@ -1,0 +1,15 @@
+
+=============OMP_NUM_THREADS=2=============
+Segmentation fault (core dumped)
+=============OMP_NUM_THREADS=4=============
+Segmentation fault (core dumped)
+=============OMP_NUM_THREADS=8=============
+Segmentation fault (core dumped)
+=============OMP_NUM_THREADS=16=============
+Segmentation fault (core dumped)
+=============OMP_NUM_THREADS=32=============
+Segmentation fault (core dumped)
+=============OMP_NUM_THREADS=64=============
+Segmentation fault (core dumped)
+
+//the output is not appear on terminal because an error occur
