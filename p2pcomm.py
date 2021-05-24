@@ -18,6 +18,4 @@ else:
     print(f'dapat mesej: {dpt}')
     comm.send(data, dest=(rank - bahagi), tag=11)
 
-
-
 # print(f'rank: {rank} data: {data}')

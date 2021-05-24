@@ -12,8 +12,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define CHUNKSIZE 100
-#define N 1000000
+#define CHUNKSIZE 10
+#define N 100
 
 int main (int argc, char *argv[]) {
     int nthreads, tid, i, chunk;
@@ -41,7 +41,8 @@ int main (int argc, char *argv[]) {
         for (i=0; i<N; i++) {
             c[i] = a[i] + b[i];
 
-            printf("Thread %d: c[%d]= %f\n",tid,i,c[i]);
+            if(i == N-1)
+                printf("Thread %d: c[%d]= %f\n",tid,i,c[i]);
         }
     }  /* end of parallel section */
 }
