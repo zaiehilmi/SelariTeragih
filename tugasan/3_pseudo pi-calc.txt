@@ -1,0 +1,26 @@
+npoints = 10000
+circle_count = 0
+
+p = number of tasks
+num = npoints/p
+
+find out if I am MASTER or WORKER
+
+do j = 1,num
+  generate 2 random numbers between 0 and 1
+  xcoordinate = random1
+  ycoordinate = random2
+  if (xcoordinate, ycoordinate) inside circle
+  then circle_count = circle_count + 1
+end do
+
+if I am MASTER
+
+  receive from WORKERS their circle_counts
+  compute PI (use MASTER and WORKER calculations)
+
+else if I am WORKER
+
+  send to MASTER circle_count
+
+endif
