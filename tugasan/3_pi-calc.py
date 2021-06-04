@@ -27,7 +27,7 @@ if rank == 0:
    
 kira = comm.reduce(mypi, op=MPI.SUM, root=0)
 
-if rank==0:
+if rank == 0:
     pi = float((1.0 / size) * kira)
     
     print(f"Computed value of pi on {size} processors is {pi}")
