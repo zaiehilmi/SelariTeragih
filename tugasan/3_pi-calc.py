@@ -14,7 +14,7 @@ size = comm.Get_size()
 circle_count = 0
 num = 10000/size
 
-seed(rank * time())
+seed(rank + time())
 for i in range(int(num)):
     x = random()
     y = random()
