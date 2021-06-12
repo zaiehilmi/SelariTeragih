@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include "mpi.h"
+#include <math.h>
 
-#define BEBAN 10000
+#define BEBAN 1000000
 
 int main(int argc, char* argv[]) {
     int saiz, rank;
@@ -36,7 +37,8 @@ int main(int argc, char* argv[]) {
     if (rank == 0) {
         double pi = kira[0] / saiz;
         
-        printf("Computed value of pi on %d processors is %.4f\n", saiz, pi);
+        printf("Computed value of pi on %d processors: %.4f\n", saiz, pi);
+        printf("Error: %.4f\n", (M_PI - pi));
         printf("===================\n");
         printf("Execution time %.4f\n", (MPI_Wtime() - mula));
     }

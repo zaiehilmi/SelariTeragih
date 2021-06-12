@@ -4,32 +4,36 @@
 from random import random, seed
 from mpi4py import MPI
 from time import time
-
-masa = MPI.Wtime()
+import math
 
 comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 size = comm.Get_size()
 
+masa = MPI.Wtime()
 circle_count = 0
-num = 10000/size
+num = 1000000/size
 
 seed(rank + time())
 for i in range(int(num)):
     x = random()
     y = random()
+    
     if ((x * x) + (y * y)) < 1:
         circle_count += 1
 
 localPi = (4.0 * circle_count) / num
 
-if (rank == 0):
-    print(f"rank[{rank}] pi = {localPi}")
+if rank == 0:
+    print(f'rank[{rank}] pi = {localPi}')
     
 kira = comm.reduce(localPi, op=MPI.SUM, root=0)
 
 if rank == 0:
     pi = float(kira / size)
+    formula = round((math.pi - pi), 4)
     
-    print(f"Computed value of pi on {size} processors is {round(pi, 4)}")
-    print(f'====================\nExecution time {round((MPI.Wtime() - masa), 4)} seconds')
+    print(f'''Computed value of pi on {size} processors is {round(pi, 4)}
+====================
+Execution time: {round((MPI.Wtime() - masa), 4)} seconds
+different between original pi value with computed value: {formula}''')
