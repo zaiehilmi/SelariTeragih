@@ -21,18 +21,20 @@ int main (int argc, char *argv[]) {
     int local = terkecil(numtask, rank);
     printf("[rank %d] %d\n", rank, local);
 
-    // mengumpulkan nilai terkecil dan dihimpun pada pemproses 1
+    // mengumpulkan nilai terkecil dan dihimpun pada pemproses 0
     int kumpul[SAIZ];
-    MPI_Gather(&local, 1, MPI_INT, kumpul, 1, MPI_INT, 0, MPI_COMM_WORLD);
+    MPI_Gather(&local, 1, MPI_INT, 
+                kumpul, 1, MPI_INT, 
+                0, MPI_COMM_WORLD);
 
     if (rank == 0) {
-        // rank 1 membuat perbandingan daripada nilai dihimpun
+        // rank 0 membuat perbandingan daripada nilai dihimpun
         local = kumpul[0];
         for (int i = 0; i < numtask; i++){
             if (kumpul[i] < local)
                 local = kumpul[i];
         }
-        
+
         printf("Nilai terkecil: %d\n\n", local);
 
         masa = MPI_Wtime() - masa;
