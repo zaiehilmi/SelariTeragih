@@ -38,7 +38,7 @@ int main (int argc, char *argv[]) {
         printf("Nilai terkecil: %d\n\n", local);
 
         masa = MPI_Wtime() - masa;
-        printf("Masa perlaksanaan: %1.4f saat\n", masa);
+        printf("Masa perlaksanaan: %.4f saat\n", masa);
     }
     
     MPI_Finalize();
