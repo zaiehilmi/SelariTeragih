@@ -33,7 +33,8 @@ if rank == 0:
     pi = float(kira / size)
     formula = round((math.pi - pi), 4)
     
-    print(f'''Computed value of pi on {size} processors is {round(pi, 4)}
+    print(f'''
+Computed value of pi on {size} processors is {round(pi, 4)}
 ====================
 Execution time: {round((MPI.Wtime() - masa), 4)} seconds
 different between original pi value with computed value: {formula}''')
