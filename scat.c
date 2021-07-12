@@ -4,38 +4,40 @@
 #define SIZE 4
 
 int main(int argc, char *argv[])  {
-    int numtasks, rank, sendcount, recvcount, source;
-    float sendbuf[SIZE][SIZE] = {
-        {1.0, 2.0, 3.0, 4.0},
-        {5.0, 6.0, 7.0, 8.0},
-        {9.0, 10.0, 11.0, 12.0},
-        {13.0, 14.0, 15.0, 16.0}  
-    };
+  int numtasks, rank, sendcount, recvcount, source;
+  float sendbuf[SIZE][SIZE] = {
+    {1.0, 2.0, 3.0, 4.0},
+    {5.0, 6.0, 7.0, 8.0},
+    {9.0, 10.0, 11.0, 12.0},
+    {13.0, 14.0, 15.0, 16.0}  
+  };
 
-    float recvbuf[SIZE];
-    MPI_Init(&argc,&argv);
-    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    MPI_Comm_size(MPI_COMM_WORLD, &numtasks);
-    if (numtasks == SIZE) {
-        source = 1;
-        sendcount = SIZE;
-        recvcount = SIZE;
-        MPI_Scatter(sendbuf,sendcount,MPI_FLOAT,recvbuf,recvcount, MPI_FLOAT,source,MPI_COMM_WORLD);
+  float recvbuf[SIZE];
 
-        printf("rank= %d  Results: %.2f %.2f %.2f %.2f\n",rank, recvbuf[0], recvbuf[1], recvbuf[2], recvbuf[3]);
-    }
-    else
-        printf("Must specify %d processors. Terminating.\n",SIZE);
+  MPI_Init(&argc,&argv);
+  MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+  MPI_Comm_size(MPI_COMM_WORLD, &numtasks);
 
+  if (numtasks == SIZE) {
     source = 1;
-    MPI_Gather(recvbuf,recvcount,MPI_INT,sendbuf,sendcount, MPI_INT,source,MPI_COMM_WORLD);
-    if (rank == 1 ) {
-        printf("Gather : rank= %d  \nResults:\n %.2f %.2f %.2f %.2f \n%.2f %.2f %.2f %.2f\n%.2f %.2f %.2f %.2f \n%.2f %.2f %.2f %.2f \n",rank,
-            sendbuf[0][0], sendbuf[0][1],sendbuf[0][2],sendbuf[0][3], 
-            sendbuf[1][0], sendbuf[1][1],sendbuf[1][2],sendbuf[1][3],
-            sendbuf[2][0], sendbuf[2][1],sendbuf[2][2],sendbuf[2][3], 
-            sendbuf[3][0], sendbuf[3][1],sendbuf[3][2],sendbuf[3][3]
-        );
+    sendcount = SIZE;
+    recvcount = SIZE;
+    MPI_Scatter(sendbuf,sendcount,MPI_FLOAT,recvbuf,recvcount,
+              MPI_FLOAT,source,MPI_COMM_WORLD);
+
+    printf("rank= %d  Results: %f %f %f %f\n",rank,recvbuf[0],
+          recvbuf[1],recvbuf[2],recvbuf[3]);
+  }
+  else
+    printf("Must specify %d processors. Terminating.\n",SIZE);
+    source = 1;
+
+    MPI_Gather(recvbuf,recvcount,MPI_INT,sendbuf,sendcount,
+              MPI_INT,source,MPI_COMM_WORLD);
+    if (rank == 1){
+      printf("Gather : rank= %d  Results: %.1f %.1f %.1f %.1f %.1f %.1f %.1f %.1f \n",rank,sendbuf[0
+            ][0], sendbuf[1][0],sendbuf[2][0],sendbuf[3][0], sendbuf[0][1], sendbuf[1][1],sendbuf[
+            2][1],sendbuf[3][1]);
     }
-    MPI_Finalize();
+  MPI_Finalize;
 }
